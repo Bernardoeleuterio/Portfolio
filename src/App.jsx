@@ -1,10 +1,14 @@
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 
 function App() {
   return (
-    <main>
-      <Home />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Home />
+      </main>
+    </>
   )
 }
 
