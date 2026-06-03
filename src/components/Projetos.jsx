@@ -11,21 +11,14 @@ const projects = [
     live: "https://meu-bebe-snowy.vercel.app/"
   },
   {
-    title: "App de Tarefas",
+    title: "Dashboard Finaceiro ",
     description:
-      "Uma aplicação para criar, editar e finalizar tarefas. Inclui filtragem, estados e interface móvel amigável.",
-    tech: ["React", "JavaScript", "LocalStorage"],
-    repo: "https://github.com/Bernardoeleuterio/task-app",
+      "Em desenvolvimento: Dashboard financeiro para acompanhar receitas, despesas e saldo, com gráficos e filtros por categoria e período.",
+    tech: ["", "", ""],
+    repo: "https://github.com/Bernardoeleuterio/Financas-Dashboard",
     live: "#"
   },
-  {
-    title: "Dashboard de Dados",
-    description:
-      "Painel com gráficos e cartões de controle para acompanhar métricas e resultados em tempo real.",
-    tech: ["React", "Chart.js", "API REST"],
-    repo: "https://github.com/Bernardoeleuterio/dashboard",
-    live: "#"
-  }
+  
 ];
 
 export default function Projetos() {

@@ -10,7 +10,7 @@ import {
   FaCss3Alt,
   FaJs,
   FaNodeJs,
-  FaGitAlt
+  FaGitAlt,
 } from "react-icons/fa";
 
 export default function Sobre() {
