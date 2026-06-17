@@ -16,7 +16,7 @@ const projects = [
       "Em desenvolvimento: Dashboard financeiro para acompanhar receitas, despesas e saldo, com gráficos e filtros por categoria e período.",
     tech: ["React", "JavaScript", "CSS"],
     repo: "https://github.com/Bernardoeleuterio/Financas-Dashboard",
-    live: "#",
+    live: "https://dashboard-financeiro-ecru-three.vercel.app/",
   },
 ];
 
