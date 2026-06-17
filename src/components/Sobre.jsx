@@ -21,7 +21,8 @@ export default function Sobre() {
 
         <p className="descricao-sobre">
           Sou estudante de Engenharia de Software e apaixonado por tecnologia.
-          Atualmente desenvolvo projetos web e acadêmicos buscando minha primeira oportunidade na área.
+          Atualmente desenvolvo projetos web e acadêmicos buscando minha
+          primeira oportunidade na área.
         </p>
 
         <div className="cards-sobre">
@@ -51,8 +52,6 @@ export default function Sobre() {
             <h3>Objetivo</h3>
             <p>Primeira oportunidade na área</p>
           </div>
-
-         
         </div>
       </div>
     </section>

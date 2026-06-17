@@ -2,12 +2,12 @@ import "../styles/Contato.css";
 import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contato() {
-    return (
-        <section className="contato" id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato comigo por email:</p>
+  return (
+    <section className="contato" id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato comigo por email:</p>
 
-             <div className="contato-card">
+      <div className="contato-card">
         <div className="item-contato">
           <FaEnvelope />
           <span>bernardo.moraes1727@gmail.com</span>
@@ -28,6 +28,6 @@ export default function Contato() {
           <span>Itajaí - SC</span>
         </div>
       </div>
-        </section>
-    );
+    </section>
+  );
 }

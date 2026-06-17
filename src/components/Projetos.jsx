@@ -8,17 +8,16 @@ const projects = [
       "Aplicativo web em React para acompanhar os cuidados do bebê, com login, cadastro de usuário e registros de fraldas, sono e amamentação.",
     tech: ["React 19", "React Router DOM 7", "Material UI", "i18next", "LocalStorage"],
     repo: "https://github.com/Bernardoeleuterio/Meu-Bebe",
-    live: "https://meu-bebe-snowy.vercel.app/"
+    live: "https://meu-bebe-snowy.vercel.app/",
   },
   {
-    title: "Dashboard Finaceiro ",
+    title: "Dashboard Financeiro",
     description:
       "Em desenvolvimento: Dashboard financeiro para acompanhar receitas, despesas e saldo, com gráficos e filtros por categoria e período.",
-    tech: ["", "", ""],
+    tech: ["React", "JavaScript", "CSS"],
     repo: "https://github.com/Bernardoeleuterio/Financas-Dashboard",
-    live: "#"
+    live: "#",
   },
-  
 ];
 
 export default function Projetos() {
@@ -27,12 +26,13 @@ export default function Projetos() {
       <div className="projetos__container">
         <h2>Projetos</h2>
         <p className="projetos__intro">
-          Aqui estão alguns dos projetos em que tenho trabalhado. Clique para ver o repositório ou testar a versão online.
+          Aqui estão alguns dos projetos em que tenho trabalhado. Clique para
+          ver o repositório ou testar a versão online.
         </p>
 
         <div className="projetos__grid">
-          {projects.map((project, index) => (
-            <article className="projeto-card" key={index}>
+          {projects.map((project) => (
+            <article className="projeto-card" key={project.title}>
               <div className="projeto-card__header">
                 <h3>{project.title}</h3>
                 <div className="projeto-card__tech">
